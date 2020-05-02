@@ -27,7 +27,9 @@ public class Main {
         int choice = scanner.nextInt();
         switch (choice){
             case 1 :
-
+                    /*case 1 for bubble sort implementation*/
+                    BubbleSort  bs = new BubbleSort();
+                    bs.sort(array,(int) Math.ceil(Math.random()));
 
         }
 

@@ -16,6 +16,8 @@ public class Main {
         System.out.println("Enter the size of array");
         int noOfElement = scanner.nextInt();
         int[] array = new int[noOfElement];
-
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 100 );
+        }
     }
 }

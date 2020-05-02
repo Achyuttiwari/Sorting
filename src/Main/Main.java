@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of array");
         int noOfElement = scanner.nextInt();
+        int[] array = new int[noOfElement];
 
-        }
     }
 }

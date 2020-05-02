@@ -22,6 +22,15 @@ public class Main {
         }
         System.out.println("Unsorted array");
         System.out.println(Arrays.toString(array));
+        System.out.println("Press 1 for sort array using Bubble sort");
+
+        int choice = scanner.nextInt();
+        switch (choice){
+            case 1 :
+
+
+        }
+
 
     }
 }
